@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PitStop GMS Website 🚗💨
 
-## Getting Started
+![PitStop Banner](public/images/opengraph-image.png)
 
-First, run the development server:
+> **The Future of Garage Management.**  
+> Part of the PitStop Suite by **Nimbus Technologies Private Limited**. Made with ❤️ in India.
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+## 📖 Overview
+
+**PitStop GMS** is a comprehensive Garage Management System designed to simplify operations for modern workshops. This repository contains the source code for the official landing page and marketing website, hosted at [pitstopgms.com](https://pitstopgms.com).
+
+The website showcases the features of the PitStop Suite, provides download links for mobile apps, and serves as the primary entry point for potential customers.
+
+## ✨ Features
+
+-   **🎨 Modern Design**: Built with a "wow" factor using vibrant colors (`#125EB5`), glassmorphism, and smooth animations.
+-   **📱 Fully Responsive**: Optimized for all devices, from mobile phones to large desktop screens.
+-   **⬇️ Dedicated Downloads Page**: A centralized hub for downloading the iOS, Android, and APK versions of the app.
+-   **📞 Contact Integration**: Direct links to WhatsApp and Telegram support, plus a fully functional contact form.
+-   **🔍 SEO Optimized**: Implements best practices for search engine visibility.
+-   **⚡ High Performance**: Powered by Next.js for blistering fast page loads.
+
+## 🛠️ Tech Stack
+
+-   **Framework**: [Next.js](https://nextjs.org/) (App Router)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Font**: [Oswald](https://fonts.google.com/specimen/Oswald)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Package Manager**: pnpm
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/karma1505/pitstop-website.git
+    cd pitstop-website
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    pnpm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    pnpm dev
+    ```
+
+4.  **Open your browser**:
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the site.
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pitstop-website/
+├── app/                # Application routes and pages
+│   ├── contact/        # Contact page
+│   ├── downloads/      # Downloads page
+│   ├── layout.tsx      # Root layout
+│   └── page.tsx        # Landing page
+├── components/         # Reusable UI components (Navbar, Hero, Footer, etc.)
+├── public/             # Static assets (images, fonts, badges)
+└── ...config files
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions! Please feel free to submit a Pull Request.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-## Learn More
+## 📞 Contact
 
-To learn more about Next.js, take a look at the following resources:
+**Sales & Support**:
+-   📞 **Phone**: [+91 99990 98900](tel:+919999098900)
+-   📧 **Email**: [karmanyasingh8@gmail.com](mailto:karmanyasingh8@gmail.com)
+-   💬 **WhatsApp**: [Chat with us](https://wa.me/919999098900)
+-   ✈️ **Telegram**: [Message us](https://t.me/+919999098900)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 PitStop Suite. All rights reserved.
