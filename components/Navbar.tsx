@@ -95,6 +95,16 @@ export default function Navbar() {
                     <Link href="/downloads" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]">
                         Downloads
                     </Link>
+                    <Link href="/pricing" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]">
+                        Pricing
+                    </Link>
+                    <Link
+                        href="/#faq"
+                        onClick={(e) => handleScroll(e, 'faq')}
+                        className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]"
+                    >
+                        FAQ
+                    </Link>
                     <Link href="/contact" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]">
                         Contact
                     </Link>

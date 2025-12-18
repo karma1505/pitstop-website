@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Suite from "@/components/Suite";
 import Downloads from "@/components/Downloads";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Suite />
       <Downloads />
       <Features />
+      <FAQ />
       <Footer />
     </main>
   );

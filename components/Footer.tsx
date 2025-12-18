@@ -20,7 +20,7 @@ export default function Footer() {
                         <Link href="#" className="hover:text-[#125EB5] transition-colors">Contact Support</Link>
                     </div>
                     <div className="flex gap-4">
-                        <Link href="#" className="h-8 w-8 rounded-full bg-gray-100 hover:bg-[#125EB5]/10 hover:text-[#125EB5] flex items-center justify-center transition-colors">
+                        <Link href="https://www.instagram.com/pitstop_hq/" className="h-8 w-8 rounded-full bg-gray-100 hover:bg-[#125EB5]/10 hover:text-[#125EB5] flex items-center justify-center transition-colors">
                             <Instagram className="h-4 w-4" />
                         </Link>
                     </div>
