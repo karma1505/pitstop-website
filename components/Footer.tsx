@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Instagram } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -19,13 +20,9 @@ export default function Footer() {
                         <Link href="#" className="hover:text-[#125EB5] transition-colors">Contact Support</Link>
                     </div>
                     <div className="flex gap-4">
-                        {/* Social placeholders */}
-                        <div className="h-8 w-8 rounded-full bg-gray-100 hover:bg-[#125EB5]/10 hover:text-[#125EB5] flex items-center justify-center cursor-pointer transition-colors">
-                            <div className="h-4 w-4 bg-current opacity-20" />
-                        </div>
-                        <div className="h-8 w-8 rounded-full bg-gray-100 hover:bg-[#125EB5]/10 hover:text-[#125EB5] flex items-center justify-center cursor-pointer transition-colors">
-                            <div className="h-4 w-4 bg-current opacity-20" />
-                        </div>
+                        <Link href="#" className="h-8 w-8 rounded-full bg-gray-100 hover:bg-[#125EB5]/10 hover:text-[#125EB5] flex items-center justify-center transition-colors">
+                            <Instagram className="h-4 w-4" />
+                        </Link>
                     </div>
                 </div>
                 <div className="mt-8 text-center text-xs text-gray-500 flex flex-col gap-2">

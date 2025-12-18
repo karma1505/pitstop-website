@@ -2,10 +2,60 @@
 
 import Link from 'next/link';
 import { Menu, X, Github, Star } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+
+import { usePathname, useRouter } from 'next/navigation';
 
 export default function Navbar() {
+    const pathname = usePathname();
+    const router = useRouter();
     const [stars, setStars] = useState<number | null>(null);
+
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, id: string) => {
+        e.preventDefault();
+        if (pathname === '/') {
+            const element = document.getElementById(id);
+            if (element) {
+                const headerOffset = 80;
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                });
+            }
+        } else {
+            router.push(`/?target=${id}`);
+        }
+    };
+
+    useEffect(() => {
+        if (pathname === '/') {
+            const params = new URLSearchParams(window.location.search);
+            const target = params.get('target');
+
+            if (target) {
+                // Small timeout to ensure DOM is ready and layout is stable
+                setTimeout(() => {
+                    const element = document.getElementById(target);
+                    if (element) {
+                        const headerOffset = 80;
+                        const elementPosition = element.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: "smooth"
+                        });
+
+                        // Clean URL without refresh
+                        window.history.replaceState(null, '', '/');
+                    }
+                }, 100);
+            }
+        }
+    }, [pathname]);
 
     useEffect(() => {
         fetch('https://api.github.com/repos/karma1505/pitstop-backend')
@@ -28,10 +78,18 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex items-center gap-8">
-                    <Link href="#features" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]">
+                    <Link
+                        href="/#features"
+                        onClick={(e) => handleScroll(e, 'features')}
+                        className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]"
+                    >
                         Features
                     </Link>
-                    <Link href="#suite" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]">
+                    <Link
+                        href="/#suite"
+                        onClick={(e) => handleScroll(e, 'suite')}
+                        className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]"
+                    >
                         The Suite
                     </Link>
                     <Link href="/downloads" className="text-sm font-medium text-gray-600 transition-colors hover:text-[#125EB5]">

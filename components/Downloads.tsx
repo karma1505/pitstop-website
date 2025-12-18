@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Downloads() {
     return (
-        <section id="downloads" className="py-24 bg-gray-50 overflow-hidden">
+        <section id="downloads" className="py-24 bg-white overflow-hidden">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
 
