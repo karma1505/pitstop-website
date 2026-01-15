@@ -13,7 +13,7 @@ export default function Downloads() {
                             Manage your garage from anywhere
                         </h2>
                         <p className="text-lg text-gray-600 mb-8">
-                            Download the PitStop GMS app for iOS and Android. Stay connected to your business operations on the go.
+                            Download the PitStop DMS app for iOS and Android. Stay connected to your business operations on the go.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -71,7 +71,7 @@ export default function Downloads() {
                                 <div className="flex-1 p-4 pt-10 overflow-hidden">
                                     <div className="flex justify-between items-center mb-6">
                                         <div className="h-8 w-8 rounded-full bg-gray-100"></div>
-                                        <div className="text-xs font-bold text-gray-900">PitStop GMS</div>
+                                        <div className="text-xs font-bold text-gray-900">PitStop DMS</div>
                                         <div className="h-6 w-6 rounded-full bg-gray-100"></div>
                                     </div>
 

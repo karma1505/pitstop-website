@@ -12,7 +12,7 @@ const features = [
         icon: ClipboardList,
     },
     {
-        title: "Customer CRM",
+        title: "Built-in CRM",
         description: "Keep your customers engaged with automated service reminders, status updates, and loyalty programs.",
         icon: Users,
     },
@@ -42,6 +42,9 @@ export default function Features() {
                             <p className="mt-2 text-sm leading-relaxed text-gray-600">{feature.description}</p>
                         </div>
                     ))}
+                </div>
+                <div className="mt-8 text-center">
+                    <p className="text-gray-400 font-medium italic">...and much more</p>
                 </div>
             </div>
         </section>

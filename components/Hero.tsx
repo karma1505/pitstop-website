@@ -9,19 +9,19 @@ export default function Hero() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
                 <div className="inline-flex items-center rounded-full border border-[#125EB5]/20 bg-[#125EB5]/5 px-3 py-1 text-sm font-medium text-[#125EB5] mb-8">
                     <span className="flex h-2 w-2 rounded-full bg-[#125EB5] mr-2 animate-pulse"></span>
-                    Launching 1/2/2026
+                    Launching Mar 2026
                 </div>
 
                 <h1 className="mx-auto max-w-5xl text-5xl font-extrabold tracking-tight sm:text-7xl">
                     The Future of <br />
                     <span className="text-[#125EB5]">
-                        Garage Management
+                        Automotive Management
                     </span>
                 </h1>
 
                 <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-                    PitStop GMS simplifies your garage operations with intelligent inventory, job cards, and billing.
-                    Part of the powerful PitStop Suite.
+                    PitStop DMS simplifies your operations with intelligent inventory, job cards, and billing.
+                    All your management needs in one powerful bundle.
                 </p>
 
                 <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -41,7 +41,7 @@ export default function Hero() {
                         <iframe
                             className="absolute top-0 left-0 w-full h-full"
                             src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=0"
-                            title="PitStop GMS Preview"
+                            title="PitStop DMS Preview"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                         ></iframe>

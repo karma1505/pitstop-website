@@ -8,10 +8,10 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-center md:text-left">
                         <span className="text-xl font-bold tracking-tighter text-[#125EB5]">
-                            PitStop <span className="text-gray-900">GMS</span>
+                            PitStop <span className="text-gray-900">DMS</span>
                         </span>
                         <p className="mt-2 text-sm text-gray-500">
-                            Part of the PitStop Suite by Nimbus Technologies Private Limited.
+                            Part of the PitStop DMS ecosystem by Nimbus Technologies Private Limited.
                         </p>
                     </div>
                     <div className="flex gap-8 text-sm text-gray-600">
@@ -26,7 +26,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="mt-8 text-center text-xs text-gray-500 flex flex-col gap-2">
-                    <p>© {new Date().getFullYear()} PitStop Suite. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} PitStop DMS. All rights reserved.</p>
                     <p>Made with ❤️ in India</p>
                 </div>
             </div>

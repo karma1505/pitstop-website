@@ -13,7 +13,7 @@ export default function DownloadsPage() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                            Download <span className="text-[#125EB5]">PitStop GMS</span>
+                            Download <span className="text-[#125EB5]">PitStop DMS</span>
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
                             Get the app on your mobile device to manage your garage on the go. Desktop and Web versions coming soon!
