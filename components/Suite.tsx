@@ -3,26 +3,26 @@ import { Wrench, Car, ShoppingCart, Settings } from 'lucide-react';
 
 const products = [
     {
-        name: 'PitStop DMS',
-        description: 'Comprehensive Dealer Management System for automotive dealerships.',
+        name: 'Dealership Module',
+        description: 'Comprehensive management for automotive dealerships.',
         icon: ShoppingCart,
         badge: 'Dealer'
     },
     {
-        name: 'PitStop GMS',
+        name: 'Garage Module',
         description: 'Advanced Garage Management System for modern service centers.',
         icon: Wrench,
         badge: 'Garage',
         active: true
     },
     {
-        name: 'PitStop FMS',
+        name: 'Fleet Module',
         description: 'Fleet Management System for tracking and maintaining vehicle fleets.',
         icon: Car,
         badge: 'Fleet'
     },
     {
-        name: 'PitStop SPMS',
+        name: 'Spare Parts Module',
         description: 'Spare Parts Management System for inventory optimization.',
         icon: Settings,
         badge: 'Spare Parts'
@@ -36,10 +36,10 @@ export default function Suite() {
                 <div className="mb-16 md:flex md:items-center md:justify-between">
                     <div>
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            The PitStop Suite
+                            The PitStop DMS Bundle
                         </h2>
                         <p className="mt-4 text-lg text-gray-600">
-                            An integrated ecosystem of tools designed for the entire automotive industry.
+                            One unified platform with specialized modules for the entire automotive industry.
                         </p>
                     </div>
                 </div>

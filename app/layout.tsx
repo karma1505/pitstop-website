@@ -18,8 +18,8 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "PitStop GMS - Modern Garage Management System",
-  description: "PitStop GMS simplifies your garage operations with intelligent inventory, job cards, and billing. Part of the PitStop Suite.",
+  title: "PitStop DMS - Modern Auto Management System",
+  description: "PitStop DMS simplifies your automotive operations with intelligent inventory, job cards, and billing. The complete bundle for your success.",
 };
 
 export default function RootLayout({

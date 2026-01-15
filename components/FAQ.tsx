@@ -5,16 +5,16 @@ import { Plus } from 'lucide-react';
 
 const faqs = [
     {
-        question: "What is PitStop GMS and who is it for?",
-        answer: "PitStop GMS (Garage Management System) is an all-in-one platform designed to streamline operations for automotive workshops, service centers, and detailing studios. It helps you manage job cards, inventory, customer relationships, and invoicing from a single dashboard."
+        question: "What is PitStop DMS and who is it for?",
+        answer: "PitStop DMS is an all-in-one platform designed to streamline operations for automotive dealerships, workshops, service centers, and detailing studios. It helps you manage job cards, inventory, customer relationships, and invoicing from a single dashboard."
     },
     {
-        question: "Is PitStop GMS free to use?",
+        question: "Is PitStop DMS free to use?",
         answer: "Currently, we are in our MVP (Minimum Viable Product) phase, and access is available through our early access program. We offer different tiers including a Personal plan for smaller setups. Pricing details for the full release will be announced soon."
     },
     {
         question: "Can I use PitStop on my mobile device?",
-        answer: "Absolutely! PitStop GMS is fully responsive and comes with a dedicated mobile app for both iOS and Android devices. You can manage your garage, check inventory, and update job status on the go."
+        answer: "Absolutely! PitStop DMS is fully responsive and comes with a dedicated mobile app for both iOS and Android devices. You can manage your garage, check inventory, and update job status on the go."
     },
     {
         question: "Does it support multiple workshops or branches?",
@@ -45,7 +45,7 @@ export default function FAQ() {
                         Frequently asked <span className="text-[#125EB5]">questions</span>
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
-                        Everything you need to know about PitStop GMS. Can't find the answer you're looking for? Feel free to contact us.
+                        Everything you need to know about PitStop DMS. Can't find the answer you're looking for? Feel free to contact us.
                     </p>
                 </div>
 

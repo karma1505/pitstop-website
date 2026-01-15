@@ -73,7 +73,7 @@ export default function Navbar() {
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center gap-2">
                     <Link href="/" className="text-2xl font-bold tracking-tighter text-[#125EB5]">
-                        PitStop <span className="text-gray-900">GMS</span>
+                        PitStop <span className="text-gray-900">DMS</span>
                     </Link>
                 </div>
 

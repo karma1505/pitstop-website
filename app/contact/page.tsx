@@ -17,7 +17,7 @@ export default function Contact() {
                             Get in <span className="text-[#125EB5]">Touch</span>
                         </h1>
                         <p className="mt-4 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
-                            Have questions about PitStop GMS? We're here to help you get started.
+                            Have questions about PitStop DMS? We're here to help you get started.
                         </p>
                     </div>
 

@@ -1,9 +1,9 @@
-# PitStop GMS Website 🚗💨
+# PitStop DMS Website 🚗💨
 
 ![PitStop Banner](public/images/opengraph-image.png)
 
-> **The Future of Garage Management.**  
-> Part of the PitStop Suite by **Nimbus Technologies Private Limited**. Made with ❤️ in India.
+> **The Future of Automotive Management.**  
+> Part of the PitStop DMS ecosystem by **Nimbus Technologies Private Limited**. Made with ❤️ in India.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)
@@ -12,9 +12,9 @@
 
 ## 📖 Overview
 
-**PitStop GMS** is a comprehensive Garage Management System designed to simplify operations for modern workshops. This repository contains the source code for the official landing page and marketing website, hosted at [pitstopgms.com](https://pitstopgms.com).
+**PitStop DMS** is a comprehensive Garage Management System designed to simplify operations for modern workshops. This repository contains the source code for the official landing page and marketing website, hosted at [pitstopgms.com](https://pitstopgms.com).
 
-The website showcases the features of the PitStop Suite, provides download links for mobile apps, and serves as the primary entry point for potential customers.
+The website showcases the features of the PitStop DMS ecosystem, provides download links for mobile apps, and serves as the primary entry point for potential customers.
 
 ## ✨ Features
 
@@ -90,4 +90,4 @@ We welcome contributions! Please feel free to submit a Pull Request.
 
 ---
 
-© 2025 PitStop Suite. All rights reserved.
+© 2025 PitStop DMS. All rights reserved.

@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import { Check, HelpCircle } from 'lucide-react';
 
 export const metadata = {
-    title: 'Pricing - PitStop GMS',
+    title: 'Pricing - PitStop DMS',
     description: 'Choose the right plan for your garage management needs. Currently in MVP phase.',
 };
 
